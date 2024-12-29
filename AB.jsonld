@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "doNotList": false,
+    "givenName": {
+      "@value": "AB"
+    },
+    "motivations": {
+      "@value": "The Cardano ecosystem represents a powerful intersection of technology, community, and decentralized governance. My motivation to become a DRep stems from a deep commitment to fostering transparent, effective decision-making within this ecosystem. I believe that decentralized governance is the cornerstone of blockchain's potential to empower communities and individuals. As a DRep, I aim to contribute my skills and insights to ensure that governance decisions align with the community's best interests and the long-term vision of Cardano.\n"
+    },
+    "objectives": {
+      "@value": "Blockchain developer and traders"
+    },
+    "paymentAddress": {
+      "@value": "addr1vxxrdwt4g2r6eu5sn302esycedjzscusd3kf5nzd2n3kdaq6k6p59"
+    },
+    "qualifications": {
+      "@value": "### Relevant Qualifications for the Role of a DRep\n\n1. **Technical Expertise in Blockchain Development**  \n   - Extensive experience developing smart contracts on Cardano, especially using **Aiken-lang**, Lucid, and the Mesh SDK.  \n   - Proficiency in designing and deploying decentralized applications (dApps), including advanced NFT marketplaces like **Plooy-NFT**.  \n   - Familiarity with Cardano-specific tools and frameworks, ensuring an in-depth understanding of the ecosystem's technical capabilities and constraints.\n\n2. **Experience in Decentralized Governance**  \n   - Practical knowledge of decentralized governance models and their implementation in blockchain ecosystems.  \n   - Active participation in community-driven decision-making processes within the Cardano ecosystem and other blockchain projects.\n\n3. **Project Management and Strategic Planning**  \n   - Led complex blockchain projects involving multi-chain compatibility, tokenomics design, and real-time gameplay integration. "
+    },
+    "references": [
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "Twiter is the best platform for communication"
+        },
+        "uri": {
+          "@value": "https://x.com/BlockWork2025"
+        }
+      },
+      {
+        "@type": "Identity",
+        "label": {
+          "@value": "Telegram"
+        },
+        "uri": {
+          "@value": "https://t.me/blockKing99"
+        }
+      }
+    ]
+  }
+}
